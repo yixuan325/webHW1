@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>秀泰網站等候畫面</title>
+    <style>
+        body, html{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: "Angkor", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .background {
+            background-image: url('show.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .back{
+            background-color: #b290e3;
+            border-radius: 15px;
+            width: 700px;
+            height: 100px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -90px 0 0 -350px;
+        }
+        .word {
+            text-align: center;
+            color: white;
+            margin-top: -100px;
+            position: absolute;
+        }
+        a{
+            color: #6608a9;
+            text-decoration: none;
+            font-family: "Angkor", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+
+</head>
+<body>
+<div class = back ></div>
+<div class= background>
+    <div class="word" style="color: #425fc4;">
+        <h1>網頁加載中...請稍後...</h1>
+        <a href="https://www.showtimes.com.tw/">按此立即前往</a>
+    </div>
+</div>
+</body>
+</html>
